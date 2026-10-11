@@ -1,0 +1,10 @@
+## Archivos generados por .NET (no subir a GitHub)
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal

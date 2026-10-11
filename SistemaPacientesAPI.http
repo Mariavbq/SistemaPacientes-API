@@ -1,0 +1,28 @@
+@api = http://localhost:5180
+
+### Listar pacientes
+GET {{api}}/api/pacientes
+
+### Registrar paciente
+POST {{api}}/api/pacientes
+Content-Type: application/json
+
+{
+  "nombre": "Paciente de prueba",
+  "cedula": "000-0000000-0",
+  "edad": 24,
+  "telefono": "809-000-0000"
+}
+
+### Listar doctores
+GET {{api}}/api/doctores
+
+### Registrar doctor
+POST {{api}}/api/doctores
+Content-Type: application/json
+
+{
+  "nombre": "Doctor de prueba",
+  "especialidad": "Medicina general",
+  "telefono": "809-000-0001"
+}
